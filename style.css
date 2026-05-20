@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+    line-height: 1.6;
+}
+
+section {
+    padding: 80px 10%;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(to right, #1e293b, #0f172a);
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.btn {
+    text-decoration: none;
+    background: #3b82f6;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+}
+
+.about,
+.skills,
+.projects,
+.contact {
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+.skill-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.skill-card,
+.project-card {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.contact a {
+    color: #3b82f6;
+    text-decoration: none;
+}
